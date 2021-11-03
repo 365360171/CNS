@@ -26,6 +26,9 @@ go build -o cns
 ~~~~~
   
 ##### 启动命令:  
+~~~~~
+systemctl [start|stop|status|restart] cns.service
+~~~~~
 [配置文件格式](config/cns.json)
 ~~~~~
 ./cns -daemon=true -json=cns.json
